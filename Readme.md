@@ -1,8 +1,5 @@
-## append-bootstrap-website-template
+# Vaiv bootstrap-website-template
 
-Thanks for downloading this template!
+Vaiv: built with: Bootstrap v5.3.2
 
-Template Name: Append
-Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template Name: Vaiv
