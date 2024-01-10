@@ -2428,6 +2428,7 @@ section {
 .blog .pagination li:hover {
   background: var(--primary-color);
   color: var(--contrast-color);
+  border-radius: 4px;
 }
 
 .blog .pagination li.active a,
