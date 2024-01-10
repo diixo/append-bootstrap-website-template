@@ -1,5 +1,5 @@
-# Vaiv bootstrap-website-template
+# VAIV bootstrap-website-template
 
-Vaiv: built with: Bootstrap v5.3.2
+vaiv: built with: Bootstrap v5.3.2
 
 Template Name: Vaiv
