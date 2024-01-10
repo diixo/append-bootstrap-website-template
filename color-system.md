@@ -68,3 +68,7 @@ To ensure a visually appealing and user-friendly navigation experience, we offer
 
 By utilizing these separate color variables for the main navigation menu, you have the flexibility to customize the colors to match your website's overall design. Whether it's the default link colors, hover effects, drop-down menus, or mobile-specific styling, these variables empower you to create a cohesive and visually engaging navigation experience for your website visitors.
 
+## Change color-scheme
+Change color scheme is changing link inbetween follow css-files:
+- Light-green scheme: `main.css`
+- Red scheme: `main-default.css`
