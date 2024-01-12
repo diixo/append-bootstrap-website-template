@@ -930,7 +930,7 @@ section {
   font-weight: 500;
   line-height: 19px;
   padding: 10px 20px;
-  background: rgba(var(--primary-color-rgb), 0.05);
+  background: rgba(var(--primary-color-rgb), 0.1);
   color: var(--primary-color);
   border-radius: 7px;
   display: inline-block;
@@ -2240,6 +2240,7 @@ section {
   padding: 12px 15px;
   margin-top: 15px;
   transition: 0.3s;
+  border-radius: 7px
 }
 
 .service-details .services-list a:first-child {
