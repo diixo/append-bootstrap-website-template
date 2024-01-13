@@ -2365,7 +2365,7 @@ section {
   display: block;
   font-size: 14px;
   color: rgba(var(--default-color-rgb), 0.6);
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .service-details .submit-box {
