@@ -2316,10 +2316,24 @@ section {
   margin-right: 0;
   min-width: 64px;
 }
+/*
+.service-details .comments {
+  border-left-color: var(--custom-color);
+  border-left-width: 0.25rem;
+}
+*/
+.service-details .comments .comment {
+/*
+  border-left-color: var(--custom-color);
+  border-left-width: 0.25rem;
+*/
+  box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
+  border-radius: var(--bs-border-radius);
+}
 
 .service-details .comments .comment .comment-img {
-  margin-left: 16px;
-  margin-top: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
   margin-right: 0;
   min-width: 64px;
 }
