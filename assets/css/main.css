@@ -2317,6 +2317,41 @@ section {
   min-width: 64px;
 }
 
+.service-details .comments .comment .comment-img {
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-right: 0;
+  min-width: 64px;
+}
+
+.service-details .comments .comment .comment-img img {
+  width: 64px;
+  height:64px;
+  border-radius: var(--bs-border-radius);
+}
+
+.service-details .comments .comment h5 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.service-details .comments .comment h5 a {
+    font-weight: bold;
+    color: var(--default-color);
+    transition: 0.3s;
+}
+
+.service-details .comments .comment h5 a:hover {
+  color: var(--primary-color);
+}
+
+.service-details .comments .comment time {
+  display: block;
+  font-size: 14px;
+  color: rgba(var(--default-color-rgb), 0.6);
+  margin-bottom: 5px;
+}
+
 .service-details .submit-box {
   background-color: var(--contrast-color);
   margin-top: 0px;
