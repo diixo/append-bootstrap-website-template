@@ -2302,6 +2302,24 @@ section {
   padding: 30px 15px;
 }
 
+.service-details .submit-box {
+  background-color: var(--contrast-color);
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+}
+
+.service-details .submit-box a {
+  background-color: #9060f0;
+  color: var(--contrast-color);
+}
+
+.service-details .submit-box a:hover {
+  background-color: rgba(144, 96, 240, 0.75);
+}
+
 .service-details .help-box .help-icon {
   font-size: 48px;
 }
