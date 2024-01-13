@@ -2346,13 +2346,13 @@ section {
 
 .service-details .comments .comment h5 {
   font-size: 16px;
-  margin-bottom: 2px;
+  margin-bottom: 0.5rem;
 }
 
 .service-details .comments .comment h5 a {
-    font-weight: bold;
-    color: var(--default-color);
-    transition: 0.3s;
+  font-weight: bold;
+  color: var(--default-color);
+  transition: 0.3s;
 }
 
 .service-details .comments .comment h5 a:hover {
