@@ -21,8 +21,8 @@
 :root {
   --background-color: #ffffff;
   --background-color-rgb: 255, 255, 255;
-  --default-color: #212529;
-  --default-color-rgb: 33, 37, 41;
+  --default-color: #504C80;
+  --default-color-rgb: 80, 76, 128;
   --primary-color: #a4d060;
   --primary-color-rgb: 164, 208, 96;
   --secondary-color: #32353a;
@@ -2346,6 +2346,12 @@ section {
   width: 50px;
   height:50px;
   border-radius: var(--bs-border-radius);
+}
+
+.service-details .highlight-shadow {
+  border: 1px solid var(--background-color);
+  box-shadow: 0 0 10px 1px rgba(var(--default-color-rgb), 0.1);
+  position: relative;	
 }
 
 .service-details .comment h5 {
