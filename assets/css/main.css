@@ -2308,7 +2308,7 @@ section {
 }
 
 .service-details .card {
-  border-left-color: var(--custom-color-variant);
+  border-left-color: #7470b4;
   border-left-width: 0.25rem;
 }
 
