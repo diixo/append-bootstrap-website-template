@@ -29,11 +29,11 @@
   --secondary-color-rgb: 50, 53, 58;
   --contrast-color: #ffffff;
   --contrast-color-rgb: 255, 255, 255;
-  
-  --custom-color: #9060F0;
-  --custom-color-rgb: 144, 96, 240;
-  --custom-variant-color: #7a52b4;
-  --custom-variant-color-rgb: 122, 82, 180;
+
+  --custom-color: #7a52b4;
+  --custom-color-rgb: 122, 82, 180;
+  --custom-variant-color: #9060F0;
+  --custom-variant-color-rgb: 144, 96, 240;
 }
 
 /* Nav Menu Colors */
@@ -268,7 +268,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #90c050;
+  --nav-hover-color: #94c050;
 }
 
 /*--------------------------------------------------------------
@@ -2308,7 +2308,7 @@ section {
 }
 
 .service-details .card {
-  border-left-color: var(--custom-variant-color);
+  border-left-color: var(--custom-color);
   border-left-width: 0.25rem;
 }
 
@@ -2365,7 +2365,7 @@ section {
 
 .service-details .comment h5 a {
   font-weight: bold;
-  color: var(--custom-variant-color);
+  color: var(--custom-color);
   transition: 0.3s;
 }
 
@@ -2390,7 +2390,7 @@ section {
 }
 
 .service-details .submit-box a {
-  background-color: var(--custom-variant-color);
+  background-color: var(--custom-color);
   color: var(--contrast-color);
 }
 
