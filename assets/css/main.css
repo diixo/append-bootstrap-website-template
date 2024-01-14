@@ -21,8 +21,8 @@
 :root {
   --background-color: #ffffff;
   --background-color-rgb: 255, 255, 255;
-  --default-color: #504C80;
-  --default-color-rgb: 80, 76, 128;
+  --default-color: #212529;
+  --default-color-rgb: 33, 37, 41;
   --primary-color: #a4d060;
   --primary-color-rgb: 164, 208, 96;
   --secondary-color: #32353a;
@@ -32,6 +32,8 @@
   
   --custom-color: #9060F0;
   --custom-color-rgb: 144, 96, 240;
+  --custom-color-variant: #6860a0;
+  --custom-color-variant-rgb: 104, 96, 160;
 }
 
 /* Nav Menu Colors */
@@ -2306,7 +2308,7 @@ section {
 }
 
 .service-details .card {
-  border-left-color: var(--custom-color);
+  border-left-color: var(--custom-color-variant);
   border-left-width: 0.25rem;
 }
 
@@ -2361,7 +2363,7 @@ section {
 
 .service-details .comment h5 a {
   font-weight: bold;
-  color: var(--custom-color);
+  color: var(--custom-color-variant);
   transition: 0.3s;
 }
 
