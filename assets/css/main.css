@@ -2387,18 +2387,23 @@ section {
   padding-left: 0px;
 }
 
-.background-custom-color {
-  background-color: var(--custom-color);
-  color: var(--contrast-color);
-}
-
-.background-custom-variant-color {
+.service-details .submit-box a {
   background-color: var(--custom-variant-color);
   color: var(--contrast-color);
 }
 
 .service-details .submit-box a:hover {
   background-color: rgba(var(--custom-color-rgb), 0.75);
+}
+
+.background-custom-color {
+  background-color: var(--custom-color) !important;
+  color: var(--contrast-color) !important;
+}
+
+.background-custom-variant-color {
+  background-color: var(--custom-variant-color) !important;
+  color: var(--contrast-color) !important;
 }
 
 .service-details .help-box .help-icon {
