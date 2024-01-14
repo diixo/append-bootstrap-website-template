@@ -2447,6 +2447,22 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Dashboard Page
+--------------------------------------------------------------*/
+/* Dashboard Section - Dashboard Page
+------------------------------*/
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------
 # Blog Page
 --------------------------------------------------------------*/
 /* Blog Section - Blog Page
