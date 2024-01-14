@@ -2319,6 +2319,9 @@ section {
   min-width: 64px;
 }
 
+/*--------------------------------------------------------------
+# Catalog Page
+--------------------------------------------------------------*/
 .service-details .comment {
 /*
   border-left-color: var(--custom-color);
@@ -2454,7 +2457,7 @@ section {
 /* Dashboard Section - Dashboard Page
 ------------------------------*/
 
-.feature {
+.service-details .feature {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2462,6 +2465,28 @@ section {
   width: 3rem;
   font-size: 28px;
   font-weight: bold;
+  font-family: var(--heading-font) !important;
+}
+
+.service-details .row .col-lg-4 .bg-white .row .col .h6 {
+  font-family: var(--heading-font) !important;
+}
+
+.service-details .row .col-lg-4 .bg-white .row .col:hover {
+  background-color: #f8f8f8 !important;
+}
+
+.service-details .row .col-lg-4 .bg-white .row .col:hover .feature {
+  background-color: rgba(var(--custom-color-rgb), 0.75) !important;
+  color: #f0f0f0 !important;
+}
+
+.service-details .row .col-lg-4 .bg-white .row .col:hover .h6 {
+  color: var(--primary-color) !important;
+}
+
+.service-details .row .col-lg-4 .bg-white .row .col:hover p {
+  color: var(--primary-color) !important;
 }
 
 /*--------------------------------------------------------------
