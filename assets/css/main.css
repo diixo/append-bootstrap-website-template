@@ -32,8 +32,8 @@
   
   --custom-color: #9060F0;
   --custom-color-rgb: 144, 96, 240;
-  --custom-color-variant: #7a52b4;
-  --custom-color-variant-rgb: 122, 82, 180;
+  --custom-variant-color: #7a52b4;
+  --custom-variant-color-rgb: 122, 82, 180;
 }
 
 /* Nav Menu Colors */
@@ -2308,7 +2308,7 @@ section {
 }
 
 .service-details .card {
-  border-left-color: var(--custom-color-variant);
+  border-left-color: var(--custom-variant-color);
   border-left-width: 0.25rem;
 }
 
@@ -2363,7 +2363,7 @@ section {
 
 .service-details .comment h5 a {
   font-weight: bold;
-  color: var(--custom-color-variant);
+  color: var(--custom-variant-color);
   transition: 0.3s;
 }
 
@@ -2393,7 +2393,7 @@ section {
 }
 
 .background-custom-variant-color {
-  background-color: var(--custom-color-variant);
+  background-color: var(--custom-variant-color);
   color: var(--contrast-color);
 }
 
