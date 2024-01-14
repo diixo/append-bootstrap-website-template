@@ -32,8 +32,8 @@
   
   --custom-color: #9060F0;
   --custom-color-rgb: 144, 96, 240;
-  --custom-color-variant: #6860a0;
-  --custom-color-variant-rgb: 104, 96, 160;
+  --custom-color-variant: #7a52b4;
+  --custom-color-variant-rgb: 122, 82, 180;
 }
 
 /* Nav Menu Colors */
@@ -2308,7 +2308,7 @@ section {
 }
 
 .service-details .card {
-  border-left-color: #7470b4;
+  border-left-color: var(--custom-color-variant);
   border-left-width: 0.25rem;
 }
 
@@ -2387,8 +2387,13 @@ section {
   padding-left: 0px;
 }
 
-.service-details .submit-box a {
+.background-custom-color {
   background-color: var(--custom-color);
+  color: var(--contrast-color);
+}
+
+.background-custom-variant-color {
+  background-color: var(--custom-color-variant);
   color: var(--contrast-color);
 }
 
