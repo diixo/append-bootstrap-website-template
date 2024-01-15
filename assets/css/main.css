@@ -2394,7 +2394,7 @@ section {
   margin-top: 0px;
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -2469,8 +2469,7 @@ section {
   justify-content: center;
   height: 3rem;
   width: 3rem;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 20px;
   font-family: var(--heading-font) !important;
 }
 
