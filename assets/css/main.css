@@ -2329,10 +2329,14 @@ section {
   border-left-color: var(--custom-color);
   border-left-width: 0.25rem;
 */
-  box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
   border-radius: var(--bs-border-radius);
   background-color: #ffffff;
   margin-bottom: 1rem;
+}
+
+.service-details .default-shadow {
+  box-shadow: 0 0 10px 2px rgba(var(--default-color-rgb), 0.1) !important;
+  position: relative !important;	
 }
 
 .service-details .comment .comment-img {
