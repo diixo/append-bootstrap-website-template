@@ -34,6 +34,7 @@
   --custom-color-rgb: 122, 82, 180;
   --custom-variant-color: #9060F0;
   --custom-variant-color-rgb: 144, 96, 240;
+  --shadow-color-rgb: 58, 46, 68;
 }
 
 /* Nav Menu Colors */
@@ -2471,6 +2472,7 @@ section {
   width: 3rem;
   font-size: 20px;
   font-family: var(--heading-font) !important;
+  box-shadow: 0 8px 10px -6px rgba(var(--shadow-color-rgb), 0.5);
 }
 
 .service-details .row .col-lg-4 .bg-white .row .col .h6 {
@@ -2520,6 +2522,45 @@ section {
 .categories .category-link a:hover {
   color: rgba(var(--primary-color-rgb), 0.7);
   text-decoration: none;
+}
+
+.categories .pagination {
+  margin-top: 30px;
+  color: rgba(var(--default-color-rgb), 0.6);
+}
+
+.categories .pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.categories .pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.categories .pagination li a {
+  color: rgba(var(--default-color-rgb), 0.6);
+  padding: 7px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories .pagination li.active,
+.categories .pagination li:hover {
+  background: var(--primary-color);
+  color: var(--contrast-color);
+  border-radius: 4px;
+}
+
+.categories .pagination li.active a,
+.categories .pagination li:hover a {
+  color: var(--contrast-color);
+  /*box-shadow: 0 8px 10px -6px rgb(58 46 68 / 35%);*/
+  box-shadow: 0 8px 10px -6px rgba(var(--shadow-color-rgb), 0.35);
 }
 
 /*--------------------------------------------------------------
