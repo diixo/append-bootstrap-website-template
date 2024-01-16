@@ -2507,94 +2507,19 @@ section {
     font-family: var(--heading-font);
 }
 
-.categories .posts-list article {
-  box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
-  padding: 30px;
-  height: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+.categories h4 {
+    font-size: 20px;
 }
 
-.categories .posts-list .post-img {
-  max-height: 240px;
-  margin: -30px -30px 15px -30px;
-  overflow: hidden;
-}
-
-.categories .posts-list .post-category {
-  font-size: 16px;
-  color: rgba(var(--default-color-rgb), 0.6);
-  margin-bottom: 10px;
-}
-
-.categories .posts-list .title {
-  font-size: 22px;
-  font-weight: 700;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.categories .posts-list .title a {
-  color: var(--secondary-color);
+.categories .category-link a {
+  color: var(--nav-hover-color);
+  text-decoration: none;
   transition: 0.3s;
 }
 
-.categories .posts-list .title a:hover {
-  color: var(--primary-color);
-}
-
-.categories .posts-list .post-author-img {
-  width: 50px;
-  border-radius: 50%;
-  margin-right: 15px;
-}
-
-.categories .posts-list .post-author {
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.categories .posts-list .post-date {
-  font-size: 14px;
-  color: rgba(var(--default-color-rgb), 0.6);
-  margin-bottom: 0;
-}
-
-.categories .pagination {
-  margin-top: 30px;
-  color: rgba(var(--default-color-rgb), 0.6);
-}
-
-.categories .pagination ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.categories .pagination li {
-  margin: 0 5px;
-  transition: 0.3s;
-}
-
-.categories .pagination li a {
-  color: rgba(var(--default-color-rgb), 0.6);
-  padding: 7px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.categories .pagination li.active,
-.categories .pagination li:hover {
-  background: var(--primary-color);
-  color: var(--contrast-color);
-  border-radius: 4px;
-}
-
-.categories .pagination li.active a,
-.categories .pagination li:hover a {
-  color: var(--contrast-color);
+.categories .category-link a:hover {
+  color: rgba(var(--primary-color-rgb), 0.7);
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
