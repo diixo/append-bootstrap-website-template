@@ -269,7 +269,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #94c050;
+  --nav-hover-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
