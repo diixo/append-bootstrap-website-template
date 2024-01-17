@@ -1,4 +1,4 @@
-# viix bootstrap-website-template (v1.32)
+# viix bootstrap-website-template (v1.34)
 
 Built with: Bootstrap v5.3.2
 
