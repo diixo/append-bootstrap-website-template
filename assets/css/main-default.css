@@ -232,7 +232,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: var(--primary-color);
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -263,7 +263,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #d83535;
+  --nav-hover-color: var(--primary-color);
 }
 
 /*--------------------------------------------------------------
