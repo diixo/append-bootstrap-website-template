@@ -35,6 +35,9 @@
   --custom-variant-color: #9060F0;
   --custom-variant-color-rgb: 144, 96, 240;
   --shadow-color-rgb: 58, 46, 68;
+  
+  /*--link-color: #005094;*/
+  --link-color: #563C7C;
 }
 
 /* Nav Menu Colors */
@@ -1154,11 +1157,11 @@ section {
 }
 
 .services .service-item .title a {
-  color: var(--secondary-color);
+  color: var(--link-color);
 }
 
 .services .service-item .title a:hover {
-  color: var(--primary-color);
+  color: #009ce0;
 }
 
 .services .service-item .description {
@@ -1907,7 +1910,7 @@ section {
 }
 
 .recent-posts .title a {
-  color: var(--secondary-color);
+  color: var(--link-color);
   transition: 0.3s;
 }
 
