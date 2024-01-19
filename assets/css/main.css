@@ -41,7 +41,7 @@
   --shadow-color-rgb: 58, 46, 68;
   
   --link-color: #005094;
-  /*--link-color: #563C7C;*/
+  --link-color-hover: #009ce0;
 }
 
 /* Nav Menu Colors */
@@ -1165,7 +1165,7 @@ section {
 }
 
 .services .service-item .title a:hover {
-  color: #009ce0;
+  color: var(--link-color-hover);
 }
 
 .services .service-item .description {
@@ -2527,8 +2527,8 @@ section {
 
 }
 
-.categories .service-item a {
-  /*color: #403C68 !important;*/
+.categories .service-item h4 a {
+  /*color: var(--link-color) !important;*/
   color: rgb(64, 60, 104) !important;
   font-weight: bold !important;
 }
@@ -2539,6 +2539,12 @@ section {
   color: rgba(64, 60, 104, 0.6);
   margin-bottom: 0.5rem;
   font-weight: bold;
+}
+
+
+.categories .service-item p a {
+  color: var(--link-color) !important;
+  font-weight: bold !important;
 }
 
 .bi-bold {
