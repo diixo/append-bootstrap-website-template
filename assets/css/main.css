@@ -2527,6 +2527,24 @@ section {
 
 }
 
+.categories .service-item a {
+  /*color: #403C68 !important;*/
+  color: var(--link-color) !important;
+  font-weight: bold !important;
+}
+
+.categories .service-item time {
+  display: block;
+  font-size: 14px;
+  color: rgba(var(--default-color-rgb), 0.6);
+  margin-bottom: 0.5rem;
+  font-weight: bold !important;
+}
+
+.bi-bold {
+  -webkit-text-stroke: 1px;
+}
+
 /*
 .categories .service-item:hover {
   box-shadow: 0 8px 10px -6px rgba(var(--shadow-color-rgb), 0.5);
