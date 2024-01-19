@@ -2527,6 +2527,10 @@ section {
 
 }
 
+.categories .service-item h4 {
+  color: rgb(64, 60, 104) !important;
+}
+
 .categories .service-item h4 a {
   /*color: var(--link-color) !important;*/
   color: rgb(64, 60, 104) !important;
@@ -2536,7 +2540,8 @@ section {
 .categories .service-item time {
   display: block;
   font-size: 14px;
-  color: rgba(64, 60, 104, 0.6);
+  /*color: rgba(64, 60, 104, 0.6);*/
+  color: rgba(var(--default-color-rgb), 0.5);
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
