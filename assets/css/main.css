@@ -2554,6 +2554,12 @@ section {
   font-weight: bold !important;
 }
 
+.description-p {
+  background-color: rgba(var(--default-color-rgb), 0.05);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
 /*
 .categories .service-item:hover {
   box-shadow: 0 8px 10px -6px rgba(var(--shadow-color-rgb), 0.5);
@@ -2561,15 +2567,15 @@ section {
 */
 
 .categories h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-family: var(--heading-font);
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
 }
 
 .categories h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .categories .category-link a {
@@ -2622,6 +2628,7 @@ section {
   box-shadow: 0 8px 10px -6px rgba(var(--shadow-color-rgb), 0.35);
 }
 
+/***********************************/
 .border-default {
   border-color: #5ac0de !important;
 }
