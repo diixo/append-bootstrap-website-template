@@ -2529,20 +2529,21 @@ section {
 
 .categories .service-item a {
   /*color: #403C68 !important;*/
-  color: var(--link-color) !important;
+  color: rgb(64, 60, 104) !important;
   font-weight: bold !important;
 }
 
 .categories .service-item time {
   display: block;
   font-size: 14px;
-  color: rgba(var(--default-color-rgb), 0.6);
+  color: rgba(64, 60, 104, 0.6);
   margin-bottom: 0.5rem;
-  font-weight: bold !important;
+  font-weight: bold;
 }
 
 .bi-bold {
   -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgba(64, 60, 104, 0.6);
 }
 
 /*
