@@ -2520,10 +2520,7 @@ section {
   margin-right: 0.25rem! important;
   border-color: #5ac0de !important;
 
-  border-width: 7px! important;
-  border-left-width: 0.25rem !important;
-
-  border-radius: 0.25rem !important;
+  border-bottom-width: 0.25rem !important;
 
 }
 
@@ -2541,20 +2538,20 @@ section {
   display: block;
   font-size: 14px;
   /*color: rgba(64, 60, 104, 0.6);*/
-  color: rgba(var(--default-color-rgb), 0.5);
+  color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
-
-.categories .service-item p a {
-  color: var(--link-color) !important;
-  font-weight: bold !important;
-}
-
 .bi-bold {
   -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: rgba(64, 60, 104, 0.6);
+  -webkit-text-stroke-color: rgba(var(--primary-color-rgb), 0.7);
+}
+
+.categories .service-item p a {
+  /*color: var(--link-color) !important;*/
+  color: rgb(64, 60, 104) !important;
+  font-weight: bold !important;
 }
 
 /*
@@ -2630,24 +2627,24 @@ section {
 }
 
 .nav-tabs-bordered {
-  border-bottom: 2px solid #ebeef4;
+  border-bottom: 0.25rem solid #ebeef4;
 }
 
 .nav-tabs-bordered .nav-link {
-  margin-bottom: -2px;
+  margin-bottom: -0.25rem;
   border: none;
   color: #2c384e;
 }
 
 .nav-tabs-bordered .nav-link:hover,
 .nav-tabs-bordered .nav-link:focus {
-  color: #4154f1;
+  color: #5ac0de;
 }
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
-  border-bottom: 2px solid #4154f1;
+  color: #5ac0de;
+  border-bottom: 0.25rem solid #5ac0de;
   font-weight: bold;
 }
 
