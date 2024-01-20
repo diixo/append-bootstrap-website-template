@@ -748,6 +748,11 @@ section {
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  
+  /*
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 20px;
+  */
 }
 
 .footer .footer-links {
@@ -761,15 +766,20 @@ section {
 }
 
 .footer .footer-links ul i {
-  padding-right: 2px;
+  padding-right: 5px;
   font-size: 12px;
   line-height: 0;
+
+  color: var(--primary-color);
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: var(--primary-color);
 }
 
 .footer .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  /*border-bottom: 1px solid #ffffff;*/
 }
 
 .footer .footer-links ul li:first-child {
