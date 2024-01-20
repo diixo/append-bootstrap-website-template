@@ -2518,9 +2518,9 @@ section {
   margin-top: 0! important;
   margin-left: 0.25rem! important;
   margin-right: 0.25rem! important;
-  border-color: #5ac0de !important;
+  border-color: rgba(var(--default-color-rgb), 0.1) !important;
 
-  border-bottom-width: 0.25rem !important;
+  border-bottom-width: 2px !important;
 
 }
 
@@ -2529,13 +2529,13 @@ section {
 }
 
 .categories .service-item h4 a {
-  /*color: var(--link-color) !important;*/
-  color: rgb(64, 60, 104) !important;
+  color: var(--link-color-hover) !important;
+  /*color: rgb(64, 60, 104) !important;*/
   font-weight: bold !important;
 }
 
 .categories .service-item h4 a:hover {
-  color: var(--link-color-hover) !important;
+  color: var(--primary-color) !important;
 }
 
 .categories .service-item time {
