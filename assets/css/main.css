@@ -2643,7 +2643,7 @@ section {
 }
 */
 
-.nav-tabs-bordered {
+.nav-tabs-buttons {
   background-color: #f0f0f0;
   border-radius: var(--bs-border-radius);
   font-family: var(--heading-font);
@@ -2654,7 +2654,7 @@ section {
 }
 
 
-.nav-tabs-bordered .nav-link {
+.nav-tabs-buttons .nav-link {
   font-weight: bold;
   border: none;
   color: var(--link-color);
@@ -2662,12 +2662,12 @@ section {
   border-radius: var(--bs-border-radius);
 }
 
-.nav-tabs-bordered .nav-link:hover,
-.nav-tabs-bordered .nav-link:focus {
+.nav-tabs-buttons .nav-link:hover,
+.nav-tabs-buttons .nav-link:focus {
   color: var(--link-color-hover);
 }
 
-.nav-tabs-bordered .nav-link.active {
+.nav-tabs-buttons .nav-link.active {
   background: var(--primary-color);
   color: #fff;
 
