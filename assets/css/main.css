@@ -2539,7 +2539,7 @@ section {
 }
 
 .categories .service-item h4 a {
-  color: var(--link-color-hover) !important;
+  color: var(--link-color) !important;
   /*color: rgb(64, 60, 104) !important;*/
   font-weight: bold !important;
 }
@@ -2654,6 +2654,7 @@ section {
 */
 
 .nav-tabs-buttons {
+  font-weight: bold;
   background-color: #f0f0f0;
   border-radius: var(--bs-border-radius);
   font-family: var(--heading-font);
@@ -2665,7 +2666,6 @@ section {
 
 
 .nav-tabs-buttons .nav-link {
-  font-weight: bold;
   border: none;
   color: var(--link-color);
   background-color: #f0f0f0;
