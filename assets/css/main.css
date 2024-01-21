@@ -24,8 +24,8 @@
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
   
-  --primary-color: #a4d050;
-  --primary-color-rgb: 164, 208, 80;
+  --primary-color: #a0ce4e;
+  --primary-color-rgb: 160, 206, 78;
   /*
   --primary-color: #94C440;
   --primary-color-rgb: 148, 196, 64;*/
@@ -688,6 +688,43 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+.btn-brand {
+  background: #614092;
+  color: #ffffff;
+  
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+	
+  user-select: none;
+  border: 1px solid transparent;
+	
+  line-height: 1.25;
+  border-radius: 0.25rem;
+	
+  padding: 10.5px 27px;
+  font-size: 14px;
+}
+
+.footer__email-input {
+  min-width: 250px;
+	
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #495057;
+
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+	
+  height: 40px;
+  color: #272727;
+}
+
 .footer {
   --background-color: #f4f4f4;
   color: var(--default-color);
@@ -767,7 +804,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 5px;
-  font-size: 12px;
+  font-style: normal;
   line-height: 0;
 
   color: var(--primary-color);
