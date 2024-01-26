@@ -3434,3 +3434,61 @@ article.article .sidebar .sidebar-item .tags ul {
   border-radius: 50px;
   transition: 0.3s;
 }
+
+.qodef-sidebar {
+  margin-top: 30px;
+}
+
+.qodef-side-menu .widget h4, .qodef-sidebar .widget h4 {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 18px;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.qodef-sidebar .widget h4:before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-color: #b2dd4c;
+  left: 0;
+
+  border-radius: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.qodef-sidebar .widget ul {
+  list-style: none;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+.qodef-sidebar .widget ul>li {
+  padding: 10px 0;
+  border-bottom: 1px dotted #dfdfdf;
+  color: #acacac;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.qodef-sidebar .widget a {
+  color: #acacac;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  font-size: 14px;
+}
