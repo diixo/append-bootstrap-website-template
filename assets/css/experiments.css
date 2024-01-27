@@ -3538,7 +3538,8 @@ padding: 30px 0 0 20px;
 
 .qodef-blog-holder article .qodef-post-info {
   text-transform: capitalize;
-  color: #b8b8b8;
+  color: var(--default-color);
+  /*color: #b8b8b8;*/
   font-size: 14px;
 }
 
@@ -3595,7 +3596,6 @@ padding: 30px 0 0 20px;
   color: #b6b6b6;
   opacity: .15;
   font-weight: 500;
-	
   background: 0 0;
 
   margin: 0;
