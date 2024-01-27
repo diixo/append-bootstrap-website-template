@@ -3413,8 +3413,8 @@ article.article .sidebar {
   box-shadow: none;
   border-radius: 0;
 	
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #dadada;
+  border-top: 1px dotted #dadada;
+  border-bottom: 1px dotted #dadada;
 }
 
 article.article .sidebar-item {
