@@ -3350,7 +3350,7 @@ section {
 .qodef-blog-holder article.format-link .qodef-post-text-inner, .qodef-blog-holder article.format-quote .qodef-post-text-inner {
   border: 2px solid #efefef;
   border-radius: 3px;
-  padding: 25px 25px 20px 25px;
+  padding: 25px 25px 15px 25px;
   position: relative;
   overflow: hidden;
 }
@@ -3544,15 +3544,6 @@ padding: 30px 0 0 20px;
   text-transform: capitalize;
   color: #b8b8b8;
   font-size: 14px;
-
-  /*
-  background: 0 0;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  outline: 0;
-  */
 }
 
 .qodef-blog-holder article .qodef-post-info>div {
@@ -3562,35 +3553,32 @@ padding: 30px 0 0 20px;
 }
 
 .qodef-blog-holder article .qodef-post-info .qodef-post-info-author:before {
-  /*font-weight: 700;*/
   content: "\e03b";
 }
 
 .qodef-blog-holder article .qodef-post-info .qodef-post-info-year:before {
-  /*font-weight: 700;*/
   content: "\e075";
 }
 
 .qodef-blog-holder article .qodef-post-info>div:before {
   font-family: simple-line-icons;
   padding-right: 5px;
-  /* font-weight: 700; */
 }
 
 .qodef-blog-holder article .qodef-post-info>div:after {
-    content: "|";
-    position: absolute;
-    right: 5px;
-    top: 0;
+  content: "|";
+  position: absolute;
+  right: 5px;
+  top: 0;
 }
 
 .qodef-blog-holder article .qodef-post-info>div:last-child:after {
-    content: "";
+  content: "";
 }
 /*****************************/
 
 .qodef-blog-holder article.format-link .qodef-post-text-inner:after {
-  content: "\e08d";  /* disc=e022 */
+  content: "\e08d";  /* disc=e022, layers=e034 */
   right: -120px;
 }
 
