@@ -3375,7 +3375,7 @@ section {
   display: block;
   font-size: 12px;
 
-  padding: 0 13px;
+  padding: 0 15px;
 
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -3388,6 +3388,13 @@ section {
   background: #b2dd4c;
   color: #fff;
   font-weight: 500;
+}
+
+.qodef-blog-single .qodef-blog-standard-post-date .year {
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 13px;
+  color: #b8b8b8;
 }
 
 .qodef-blog-single .qodef-blog-standard-post-date span {
@@ -3444,7 +3451,7 @@ padding: 30px 0 0 20px;
 }
 
 .qodef-sidebar .widget:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .qodef-side-menu .widget h4, .qodef-sidebar .widget h4 {
@@ -3533,22 +3540,3 @@ padding: 30px 0 0 20px;
   color: #535353;
   font-weight: inherit;
 }
-
-/*
-.qodef-sidebar .qodef-blog-list-holder .qodef-image-in-box .qodef-item-title {
-    font-size: 15px;
-    font-weight: 600;
-    word-wrap: break-word;
-    color: #212121;
-}
-
-.qodef-blog-list-holder .qodef-item-title h6 {
-    font-weight: 600;
-    word-wrap: break-word;
-    color: #212121;
-}
-
-.qodef-blog-list-holder .qodef-item-title h6 a {
-    color: #212121;
-}
-*/
