@@ -3350,7 +3350,7 @@ section {
 .qodef-blog-holder article.format-link .qodef-post-text-inner, .qodef-blog-holder article.format-quote .qodef-post-text-inner {
   border: 2px solid #efefef;
   border-radius: 3px;
-  padding: 25px 25px 15px 25px;
+  padding: 25px 25px 25px 25px;
   position: relative;
   overflow: hidden;
 }
