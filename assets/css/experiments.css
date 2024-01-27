@@ -2892,7 +2892,11 @@ section {
 ------------------------------*/
 .blog-details .article {
   box-shadow: 0 4px 16px rgba(var(--default-color-rgb), 0.1);
-  padding: 30px;
+
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
 }
 
 .blog-details .post-img {
@@ -3347,14 +3351,6 @@ section {
 /* Blog-Blank Section - Blog Blank Page
 ------------------------------*/
 
-.qodef-blog-holder article.format-link .qodef-post-text-inner, .qodef-blog-holder article.format-quote .qodef-post-text-inner {
-  border: 2px solid #efefef;
-  border-radius: 3px;
-  padding: 25px 25px 25px 25px;
-  position: relative;
-  overflow: hidden;
-}
-
 .qodef-blog-single .qodef-blog-standard-info-holder, .qodef-blog-single .qodef-blog-standard-post-date {
   display: inline-block;
   vertical-align: top;
@@ -3575,7 +3571,14 @@ padding: 30px 0 0 20px;
 .qodef-blog-holder article .qodef-post-info>div:last-child:after {
   content: "";
 }
-/*****************************/
+
+.qodef-blog-holder article.format-link .qodef-post-text-inner, .qodef-blog-holder article.format-quote .qodef-post-text-inner {
+  border: 2px solid #efefef;
+  border-radius: 3px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
 
 .qodef-blog-holder article.format-link .qodef-post-text-inner:after {
   content: "\e08d";  /* disc=e022, layers=e034 */
