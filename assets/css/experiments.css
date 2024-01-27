@@ -3541,3 +3541,44 @@ padding: 30px 0 0 20px;
   color: #535353;
   font-weight: inherit;
 }
+.qodef-blog-holder article .qodef-post-info {
+
+    text-transform: capitalize;
+    color: #b8b8b8;
+	font-size: 14px;
+
+}
+.qodef-blog-holder article .qodef-post-info .qodef-post-info-author:before {
+    content: "\e03b";
+}
+
+.qodef-blog-holder article .qodef-post-info>div:before {
+    font-family: simple-line-icons;
+    padding-right: 5px;
+}
+/*****************************/
+/*
+.qodef-blog-holder article.format-link .qodef-post-text-inner:after {
+    content: "\e08d";
+    right: -120px;
+}
+
+.qodef-blog-holder article.format-link .qodef-post-text-inner:after, .qodef-blog-holder article.format-quote .qodef-post-text-inner:after {
+
+    font-family: simple-line-icons;
+    position: absolute;
+    top: 0;
+
+    font-size: 312px;
+    color: #b6b6b6;
+    opacity: .15;
+	font-weight: 500;
+	
+    background: 0 0;
+
+    margin: 0;
+
+    vertical-align: baseline;
+    outline: 0;
+}
+*/
