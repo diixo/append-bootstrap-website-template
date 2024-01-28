@@ -144,6 +144,12 @@ section {
   color: var(--secondary-color);
 }
 
+.page-title .heading h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
 .page-title nav {
   background-color: rgba(var(--default-color-rgb), 0.05);
   padding: 20px 0;
