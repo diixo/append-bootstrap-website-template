@@ -3374,7 +3374,7 @@ section {
   line-height: 37px;
   color: #636363;
   padding: 0 12px;
-  border: 2px solid #efefef;
+  border: 2px solid rgba(var(--default-color-rgb), 0.08); /* #efefef; */
   border-bottom: 0;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -3586,7 +3586,7 @@ padding: 30px 0 0 20px;
 }
 
 .qodef-blog-holder article.format-link .qodef-post-text-inner, .qodef-blog-holder article.format-quote .qodef-post-text-inner {
-  border: 2px solid #efefef;
+  border: 2px solid rgba(var(--default-color-rgb), 0.08); /* #efefef; */
   border-radius: 3px;
   padding: 25px;
   position: relative;
@@ -3605,8 +3605,11 @@ padding: 30px 0 0 20px;
   top: -220px;
 
   font-size: 312px;
+  color: rgba(var(--default-color-rgb), 0.05);
+  /*
   color: #b6b6b6;
   opacity: .15;
+  */
   font-weight: 500;
   background: 0 0;
 
