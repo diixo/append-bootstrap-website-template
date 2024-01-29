@@ -3185,7 +3185,7 @@ section {
 .blog-details .sidebar .tags ul a {
   color: rgba(var(--default-color-rgb), 0.7);
   font-size: 14px;
-  padding: 6px 14px 8px 14px;
+  padding: 6px 14px;
   margin: 0 6px 8px 0;
   border: 1px solid rgba(var(--default-color-rgb), 0.4);
   display: inline-block;
@@ -3363,6 +3363,10 @@ section {
 /* Blog-Blank Section - Blog Blank Page
 ------------------------------*/
 
+.qodef-content-text {
+	color: #505050;
+}
+
 .qodef-blog-single .qodef-blog-standard-info-holder, .qodef-blog-single .qodef-blog-standard-post-date {
   display: inline-block;
   vertical-align: top;
@@ -3468,7 +3472,8 @@ padding: 30px 0 0 20px;
   display: inline-block;
   font-size: 17px;
   font-weight: 700;
-  color: #212121;
+  color: #202020;
+  line-height: 1.5em;
 }
 
 .qodef-sidebar .widget h4:before {
@@ -3544,8 +3549,18 @@ padding: 30px 0 0 20px;
 }
 
 .qodef-sidebar .qodef-blog-list-holder.qodef-image-in-box a {
-  color: #535353;
+  color: #505050;
   font-weight: inherit;
+}
+
+/*
+.qodef-sidebar .qodef-blog-list-holder .qodef-blog-list a {
+  color: #505050;
+}
+*/
+
+.qodef-sidebar .qodef-blog-list-holder .qodef-blog-list a:hover {
+  color: var(--primary-color);
 }
 
 .qodef-blog-holder article .qodef-post-info {
@@ -3553,6 +3568,7 @@ padding: 30px 0 0 20px;
   color: var(--default-color);
   /*color: #b8b8b8;*/
   font-size: 14px;
+  font-weight: 500;
 }
 
 .qodef-blog-holder article .qodef-post-info>div {
