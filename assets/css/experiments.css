@@ -3185,7 +3185,7 @@ section {
 .blog-details .sidebar .tags ul a {
   color: rgba(var(--default-color-rgb), 0.7);
   font-size: 14px;
-  padding: 6px 14px;
+  padding: 6px 14px 8px 14px;
   margin: 0 6px 8px 0;
   border: 1px solid rgba(var(--default-color-rgb), 0.4);
   display: inline-block;
