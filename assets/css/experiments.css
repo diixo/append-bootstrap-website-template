@@ -2937,7 +2937,7 @@ section {
 .blog-details .content blockquote {
   overflow: hidden;
   background-color: rgba(var(--default-color-rgb), 0.05);
-  padding: 60px;
+  padding: 10px 15px;
   position: relative;
   text-align: center;
   margin: 20px 0;
@@ -2947,9 +2947,9 @@ section {
   color: var(--default-color);
   line-height: 1.6;
   margin-bottom: 0;
-  font-style: italic;
+  /*font-style: italic;*/
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .blog-details .content blockquote:after {
@@ -2958,10 +2958,10 @@ section {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 3px;
+  width: 4px;
   background-color: var(--primary-color);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .blog-details .meta-top {
