@@ -209,7 +209,7 @@ section {
   color: var(--primary-color);
   font-size: 26px;
   font-weight: 600;
-  padding-left: 3px;
+  padding-left: 0px;
 }
 
 .header .btn-getstarted,
