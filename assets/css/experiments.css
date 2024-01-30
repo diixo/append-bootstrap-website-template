@@ -3364,7 +3364,8 @@ section {
 ------------------------------*/
 
 .qodef-content-text {
-	color: #505050;
+	color: #787878;
+	font-weight: 500;
 }
 
 .qodef-blog-single .qodef-blog-standard-info-holder, .qodef-blog-single .qodef-blog-standard-post-date {
