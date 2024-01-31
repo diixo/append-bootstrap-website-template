@@ -3367,12 +3367,13 @@ section {
 	color: #787878;
 	font-weight: 500;
 }
-
-.qodef-blog-single .qodef-blog-standard-info-holder, .qodef-blog-single .qodef-blog-standard-post-date {
+.qodef-blog-holder.qodef-blog-type-standard .qodef-blog-standard-post-date, /* feedline */
+.qodef-blog-single .qodef-blog-standard-info-holder,
+.qodef-blog-single .qodef-blog-standard-post-date {
   display: inline-block;
   vertical-align: top;
 }
-
+.qodef-blog-holder.qodef-blog-type-standard .qodef-blog-standard-post-date .date, /* feedline */
 .qodef-blog-single .qodef-blog-standard-post-date .date {
   display: block;
   font-size: 20px;
@@ -3385,6 +3386,7 @@ section {
   border-top-right-radius: 3px;
 }
 
+.qodef-blog-holder.qodef-blog-type-standard .qodef-blog-standard-post-date .month, /* feedline */
 .qodef-blog-single .qodef-blog-standard-post-date .month {
   display: block;
   font-size: 12px;
@@ -3413,11 +3415,14 @@ section {
   text-align: var(--bs-body-text-align);
 }
 
+.qodef-blog-holder.qodef-blog-type-standard .qodef-blog-standard-info-holder, /* feedline */
 .qodef-blog-single .qodef-blog-standard-info-holder {
   margin-left: 14px;
 }
 
-.qodef-blog-single .qodef-blog-standard-info-holder, .qodef-blog-single .qodef-blog-standard-post-date {
+.qodef-blog-holder.qodef-blog-type-standard .qodef-blog-standard-info-holder, /* feedline */
+.qodef-blog-single .qodef-blog-standard-info-holder,
+.qodef-blog-single .qodef-blog-standard-post-date {
   display: inline-block;
   vertical-align: top;
 }
@@ -3564,10 +3569,14 @@ padding: 30px 0 0 20px;
   color: var(--primary-color);
 }
 
+.qodef-blog-holder.qodef-blog-type-standard article { /* feedline */
+    margin-bottom: 10px;
+}
+
 .qodef-blog-holder article .qodef-post-info {
   text-transform: capitalize;
-  color: var(--default-color);
-  /*color: #b8b8b8;*/
+  /*color: var(--default-color);*/
+  color: #a0a0a0;
   font-size: 14px;
   font-weight: 500;
 }
@@ -3602,8 +3611,7 @@ padding: 30px 0 0 20px;
   content: "";
 }
 
-.qodef-blog-holder article.format-link  .qodef-post-text-inner,
-.qodef-blog-holder article.format-quote .qodef-post-text-inner {
+.qodef-blog-holder article.format-link  .qodef-post-text-inner {
   border: 2px solid rgba(var(--default-color-rgb), 0.08); /* #efefef; */
   border-radius: 3px;
   padding: 25px;
@@ -3618,8 +3626,7 @@ padding: 30px 0 0 20px;
   right: -120px;
 }
 
-.qodef-blog-holder article.format-link  .qodef-post-text-inner:after,
-.qodef-blog-holder article.format-quote .qodef-post-text-inner:after {
+.qodef-blog-holder article.format-link  .qodef-post-text-inner:after {
 
   font-family: simple-line-icons;
   position: absolute;
