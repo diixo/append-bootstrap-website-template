@@ -3631,12 +3631,11 @@ padding: 30px 0 0 20px;
 
   font-size: 312px;
 
-  color: rgba(var(--default-color-rgb), 0.05);
   /*
   color: #b6b6b6;
   opacity: .15;
   */
-
+  color: rgba(var(--default-color-rgb), 0.05);
   font-weight: 500;
   background: 0 0;
   margin: 0;
@@ -3654,6 +3653,7 @@ padding: 30px 0 0 20px;
 
 .qodef-blog-holder article.decorator-disc .qodef-post-text-inner:after {
   content: "\e022";
+  top: -200px;
 }
 
 .qodef-blog-holder article.decorator-globe .qodef-post-text-inner:after {
@@ -3664,3 +3664,8 @@ padding: 30px 0 0 20px;
   content: "\e04a";
   right: -20px;
 }
+
+.qodef-blog-holder article.decorator-rocket .qodef-post-text-inner:after {
+  content: "\e05c";
+}
+
