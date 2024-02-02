@@ -904,6 +904,7 @@ section {
   z-index: 3;
 }
 
+.hero h1,
 .hero h2 {
   color: var(--contrast-color);
   margin: 0;
