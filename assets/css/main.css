@@ -2625,6 +2625,14 @@ section {
 }
 */
 
+.categories h1 {
+  color: var(--secondary-color);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+}
+
 .categories h2 {
   color: var(--secondary-color);
   font-size: 30px;
