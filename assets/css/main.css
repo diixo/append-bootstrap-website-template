@@ -2560,7 +2560,7 @@ section {
 /* Categories Section - Categories Page
 ------------------------------*/
 .categories .service-item {
-  padding-left: 1.5rem! important;
+  padding-left: 1rem! important;
   padding-bottom: 1rem! important;
   padding-right: 1rem! important;
   padding-top: 1rem! important;
