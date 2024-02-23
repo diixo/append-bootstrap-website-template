@@ -527,7 +527,7 @@ section {
     display: none;
     z-index: 99;
     padding: 10px 0;
-    margin: 10px 20px;
+    margin: 10px 12px;
     background-color: var(--nav-dropdown-background-color);
     transition: all 0.5s ease-in-out;
   }
