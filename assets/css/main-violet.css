@@ -24,8 +24,8 @@
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
   /*--primary-color: #9060F0;*/
-  --primary-color: #8050d0;
-  --primary-color-rgb: 128, 80, 208;
+  --primary-color: #8050d8;
+  --primary-color-rgb: 128, 80, 216;
   --secondary-color: #32353a;
   --secondary-color-rgb: 50, 53, 58;
   --contrast-color: #ffffff;
@@ -41,9 +41,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #3a3939;
-  --nav-hover-color: #8050e0;
+  --nav-hover-color: #8050e8;
   --nav-dropdown-color: #3a3939;
-  --nav-dropdown-hover-color: #8050e0;
+  --nav-dropdown-hover-color: #8050e8;
   --nav-dropdown-background-color: #ffffff;
   --nav-mobile-background-color: #ffffff;
 }
@@ -2512,6 +2512,22 @@ section {
 --------------------------------------------------------------*/
 /* Categories Section - Categories Page
 ------------------------------*/
+.categories .service-item {
+  padding-left: 1rem! important;
+  padding-bottom: 1rem! important;
+  padding-right: 1rem! important;
+  padding-top: 1rem! important;
+
+  margin-bottom: 0! important;
+  margin-top: 0! important;
+  margin-left: 0.25rem! important;
+  margin-right: 0.25rem! important;
+  border-color: rgba(var(--default-color-rgb), 0.1) !important;
+
+  border-bottom-width: 2px !important;
+
+}
+
 .categories h2 {
     color: var(--secondary-color);
     font-size: 30px;
