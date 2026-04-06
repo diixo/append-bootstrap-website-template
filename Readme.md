@@ -1,8 +1,8 @@
 # viix bootstrap-website-template (v1.75)
 
-Built with: Bootstrap v5.3.2
+Support: Bootstrap v5.3.2
 
-Template name: **viix**
+Demo online: https://diixo.github.io/append-bootstrap-website-template
 
 ## screenshots
 
